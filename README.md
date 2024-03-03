@@ -3,6 +3,10 @@
 
 因原版模組排序太過難用，故自製一個管理器
 
+參考了 ddsaveedit(https://github.com/robojumper/DarkestDungeonSaveEditor/tree/master/rust/ddsaveedit/wasm-ddsaveedit) 以了解檔案結構
+
+雖然我不會rust，但是還是想辦法用Python重造出來了
+
 ### 目前能做到:
 
 1.解析遊戲加密文件
@@ -33,8 +37,6 @@
 功能尚在完善，檔案丟失損毀恕不負責，
   
 資料管理尚為Read Only，更動後寫回功能為待辦
-
-
   
 尚有Bug待處理，多為gradio方面
 

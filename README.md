@@ -3,7 +3,7 @@
 
 因原版模組排序太過難用，故自製一個管理器
 
-參考了 ddsaveedit(https://github.com/robojumper/DarkestDungeonSaveEditor/tree/master/rust/ddsaveedit/wasm-ddsaveedit) 以了解檔案結構
+參考了 [ddsaveedit](https://github.com/robojumper/DarkestDungeonSaveEditor/tree/master/rust/ddsaveedit/wasm-ddsaveedit) 以了解檔案結構
 
 雖然我不會rust，但是還是想辦法用Python重造出來了
 

@@ -2,7 +2,7 @@ import gradio as gr, os,json
 import xml.etree.ElementTree as ET
 from tkinter import Tk, filedialog
 from dddecoder import dddecoder
-order=[None,'Fix','Tweaks','UI',"Scripts","Shared",'Localization','District','Campaign',"Dungeons","Monsters","Trinkets","New Class","Skin","Disable"]
+order=[None,'Fix','Tweaks','UI',"Scripts","Shared",'Localization','District','Campaign',"Dungeons","Monsters","Trinkets","Skin","New Class","Disable"]
 Classify={
 'Fix': {'bug','fix'},
 'Tweaks': {'gameplay','tweaks','balance','overhaul','difficulty'},

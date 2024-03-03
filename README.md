@@ -5,31 +5,30 @@
 
 參考了 robojumper 的 [ddsaveedit](https://github.com/robojumper/DarkestDungeonSaveEditor/tree/master/rust/ddsaveedit/wasm-ddsaveedit) 以了解檔案結構
 
-雖然我不會rust，但是還是想辦法用Python重造出來了
 
 ### 目前能做到:
 
-1.解析遊戲加密文件
+>1.解析遊戲加密文件
 
-2.網頁瀏覽遊戲文件
+>2.網頁瀏覽遊戲文件
 
-3.模組依規則自行排序
+>3.模組依規則自行排序
 
-4.重新寫回檔案
+>4.重新寫回檔案
 
 使用方法為:
 
-1.選擇Steam的remote存檔資料夾
+>1.選擇Steam的remote存檔資料夾
   
-2.選擇Steam的DarkestDungeon資料夾
+>2.選擇Steam的DarkestDungeon資料夾
   
-3.點擊 Check Game Saves確認路徑
+>3.點擊 Check Game Saves確認路徑
   
-4.若路徑無誤，將顯示遊戲中的每個存檔
+>4.若路徑無誤，將顯示遊戲中的每個存檔
   
-5.至模組管理頁面查看模組
+>5.至模組管理頁面查看模組
   
-6.自動排序後點選導出，將導出於程式資料夾下
+>6.自動排序後點選導出，將導出於程式資料夾下
 
 
 將persist.game.json覆蓋回去之前請先備份，(之後可能用程式幫你備份好)

@@ -42,13 +42,13 @@ def on_browse(origin_data):
 def check_folders(Sf_Des,G_Des):
     global profiles,Savefile_Des,Game_Des
     visible = True
-    if not os.path.exists(G_Des):
+    if not os.path.exists(os.path.join(G_Des,"steam_appid.txt")):
         G_Des_ret=gr.update(info="範例: ..../steamapps/common/DarkestDungeon  Err: Savefile Folder Not Found!!")
         visible = False
     else:
         G_Des_ret=gr.update(info="範例: ..../steamapps/common/DarkestDungeon")
         Game_Des = G_Des
-    if not os.path.exists(Sf_Des):
+    if not os.path.exists(os.path.join(Sf_Des,"steam_init.json")):
         Sf_Des_ret=gr.update(info="範例: ..../Steam/userdata/247796443/262060/remote  Err: Game Folder Not Found!!")
         visible = False
     else:
